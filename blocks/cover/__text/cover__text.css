@@ -3,5 +3,6 @@
   grid-row: 1/2;
   align-self: center;
   justify-self: center;
-  z-index: 2;
+  z-index: 1;
+  pointer-events: none;
 }

@@ -6,6 +6,7 @@
   color: #fff;
   margin-right: 18px;
   transition: opacity .2s linear;
+  cursor: url('../../../images/pointer.svg'), pointer;
 }
 
 .footer__link:hover {

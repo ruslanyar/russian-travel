@@ -4,6 +4,7 @@
   line-height: 22px;
   color: #fff;
   transition: opacity .3s linear;
+  cursor: url('../../../images/pointer.svg'), pointer;
 }
 
 .place__link:hover {
