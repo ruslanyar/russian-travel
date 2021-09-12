@@ -1,3 +1,4 @@
 .cover {
-  background-image: url('../../images/cover-trains.jpg');
+  color: #fff;
+  display: grid;
 }
