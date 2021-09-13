@@ -1,6 +1,28 @@
 .photo-grid {
+  width: calc(100% - 48px*2);
   display: grid;
   gap: 16px;
   grid-template-columns: repeat(auto-fit, minmax(284px, max-content));
-  /* grid-template-rows: repeat(auto-fit, minmax(213px, max-content)); */
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .photo-grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, max-content));
+    gap: 14px;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 768px) {
+  .photo-grid {
+    width: calc(100% - 24px*2);
+    grid-template-columns: repeat(auto-fit, minmax(352px, max-content));
+  }
+}
+
+@media (max-width: 320px) {
+  .photo-grid {
+    width: calc(100% - 16px*2);
+    grid-template-columns: repeat(auto-fit, minmax(288px, max-content));
+    gap: 12px;
+  }
 }
