@@ -1,0 +1,25 @@
+.lead__figure {
+  width: calc(100% - 148px*2);
+  margin: 64px auto 0;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .lead__figure {
+    width: calc(100% - 48px*2);
+    margin: 56px auto 0;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 768px) {
+  .lead__figure {
+    width: 100%;
+    margin: 56px 0 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .lead__figure {
+    width: 100%;
+    margin: 40px 0 0;
+  }
+}
