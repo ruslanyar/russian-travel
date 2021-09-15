@@ -1,3 +1,15 @@
 .page__place {
   margin-top: 80px;
 }
+
+@media (min-width: 321px) and (max-width: 768px) {
+  .page__place {
+    margin-top: 73px;
+  }
+}
+
+@media (max-width: 320px) {
+  .page__place {
+    margin-top: 50px;
+  }
+}

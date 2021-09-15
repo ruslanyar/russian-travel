@@ -4,3 +4,18 @@
   font-weight: 900;
   line-height: 76px;
 }
+
+@media (min-width: 321px) and (max-width: 768px) {
+.place__title {
+  font-size: 42px;
+  line-height: 46px;
+}
+}
+
+@media (max-width: 320px) {
+  .place__title {
+    margin: 0 16px 0;
+    font-size: 32px;
+    line-height: 35px;
+  }
+}
