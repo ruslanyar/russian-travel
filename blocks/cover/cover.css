@@ -1,4 +1,24 @@
 .cover {
+  /* width: calc(100% - 48px*2); */
+  max-width: 1184px;
   color: #fff;
   display: grid;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .cover {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 768px) {
+  .cover {
+    max-width: 768px;
+  }
+}
+
+@media (max-width: 320px) {
+  .cover {
+    max-width: 320px;
+  }
 }
