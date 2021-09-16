@@ -1,7 +1,4 @@
 .place__paragraph {
-  /* Нижний отступ при меньших разрешения будет заметен */
-  /* Нужно вынести его отдельно */
-  margin: 0 0 26px;
   font-size: 18px;
   font-weight: 400;
   line-height: 29px;
