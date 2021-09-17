@@ -2,13 +2,13 @@
   margin: 92px auto 0;
 }
 
-@media (min-width: 321px) and (max-width: 768px) {
+@media (min-width: 425px) and (max-width: 768px) {
   .page__photo-grid {
     margin: 88px auto 0;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 425px) {
   .page__photo-grid {
     margin: 64px auto 0;
   }
