@@ -1,9 +1,11 @@
 .page__footer {
+  width: calc(100% - 48px*2);
   margin: 92px auto 24px;
 }
 
 @media (min-width: 425px) and (max-width: 768px) {
   .page__footer {
+    width: calc(100% - 24px*2);
     margin: 88px auto 24px;
   }
 }

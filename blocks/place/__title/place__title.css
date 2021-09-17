@@ -3,6 +3,7 @@
   font-size: 72px;
   font-weight: 900;
   line-height: 76px;
+  text-rendering: optimizeLegibility;
 }
 
 @media (min-width: 425px) and (max-width: 768px) {
