@@ -1,3 +1,15 @@
 .page__footer {
-  margin: 92px 48px 24px;
+  margin: 92px auto 24px;
+}
+
+@media (min-width: 321px) and (max-width: 768px) {
+  .page__footer {
+    margin: 88px auto 24px;
+  }
+}
+
+@media (max-width: 320px) {
+  .page__footer {
+    margin: 64px 118px 24px 16px;
+  }
 }
