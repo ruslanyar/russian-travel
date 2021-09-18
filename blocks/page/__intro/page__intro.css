@@ -10,12 +10,12 @@
 
 @media (min-width: 425px) and (max-width: 768px) {
   .page__intro {
-    margin: 88px auto 0;
+    margin: 88px 0 0 24px;
   }
 }
 
 @media (max-width: 425px) {
   .page__intro {
-    margin: 64px auto 0;
+    margin: 64px 0 0 16px;
   }
 }
