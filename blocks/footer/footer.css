@@ -1,6 +1,7 @@
 .footer {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 @media (max-width: 425px) {
