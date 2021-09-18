@@ -1,6 +1,6 @@
 .cover__link {
   width: 100%;
-  min-height: 740px;
+  padding-bottom: 62.5%;
   grid-column: 1/2;
   grid-row: 1/2;
   position: relative;
@@ -28,22 +28,4 @@
 
 .cover__link:hover::after {
   opacity: .8;
-}
-
-@media (min-width: 768px) and (max-width: 1024px) {
-  .cover__link {
-    min-height: 640px;
-  }
-}
-
-@media (min-width: 425px) and (max-width: 768px) {
-  .cover__link {
-    min-height: 480px;
-  }
-}
-
-@media (max-width: 425px) {
-  .cover__link {
-    min-height: 200px;
-  }
 }
