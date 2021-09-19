@@ -6,17 +6,22 @@
   text-rendering: optimizeLegibility;
 }
 
-@media (min-width: 425px) and (max-width: 768px) {
+@media (max-width: 865px) {
 .place__title {
   font-size: 42px;
   line-height: 46px;
 }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 675px) {
   .place__title {
-    margin: 0 16px 0;
     font-size: 32px;
     line-height: 35px;
+  }
+}
+
+@media (max-width: 425px) {
+  .place__title {
+    margin-left: 16px;
   }
 }

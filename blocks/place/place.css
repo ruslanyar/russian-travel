@@ -5,21 +5,21 @@
   gap: 48px 40px;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .place {
     grid-template-columns: minmax(calc(100% - 456px - 32px), 440px) minmax(calc(100% - 440px - 32px), 456px);
     gap: 48px 32px;
   }
 }
 
-@media (min-width: 425px) and (max-width: 768px) {
+@media (max-width: 768px) {
   .place {
     grid-template-columns: minmax(calc(100% - 352px - 28px), 340px) minmax(calc(100% - 340px - 28px), 352px);
     gap: 48px 28px;
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 675px) {
   .place {
     grid-template-columns: 100%;
     gap: 32px;
