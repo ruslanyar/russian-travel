@@ -17,13 +17,15 @@
   <body class="page">
     <!-- Header -->
     <header class="header page__header">
-      <a href="#">
-        <div class="header__logo"></div>
-      </a>
-      <div class="header__lang-links">
-        <a href="" class="header__lang-link header__lang-link_active">Ru</a>
-        <a href="" class="header__lang-link">En</a>
-      </div>
+      <a href="#" class="header__logo"></a>
+      <ul class="header__lang-links page__list">
+        <li class="header__lang-links-item">
+          <a href="#" class="header__lang-link header__lang-link_active">Ru</a>
+        </li>
+        <li class="header__lang-links-item">
+          <a href="#" class="header__lang-link">En</a>
+        </li>
+      </ul>
     </header>
     <!-- Content -->
     <main class="content">
@@ -171,7 +173,7 @@
                 Балтийского моря с&nbsp;другой. Уникальная природная зона
                 на&nbsp;краю российского анклава.
               </p>
-              <p class="place__paragraph place__paragraph_margin_none">
+              <p class="place__paragraph">
                 На&nbsp;этом Калининградская область не&nbsp;заканчивается.
                 Для&nbsp;путешественника и&nbsp;исследователя там&nbsp;же
                 по&nbsp;соседству&nbsp;&mdash; самая западная точка России,
@@ -205,7 +207,7 @@
                 а&nbsp;на&nbsp;север&nbsp;&mdash; Ледовитый океан,
                 прикидывающийся Баренцевым морем.
               </p>
-              <p class="place__paragraph place__paragraph_margin_none">
+              <p class="place__paragraph">
                 Возможно, вы&nbsp;смотрели Звягинцева и&nbsp;даже слышали
                 историю арктического фестиваля в Териберке. Возможно, слово
                 &laquo;Хибины&raquo; не&nbsp;осталось под снегом школьных
@@ -242,7 +244,7 @@
                 окна, сможете познакомиться с невидимым чудом здешних
                 мест&nbsp;&mdash; горным воздухом.
               </p>
-              <p class="place__paragraph place__paragraph_margin_none">
+              <p class="place__paragraph">
                 Климат на&nbsp;Алтае умеренный, поэтому ехать сюда лучше всего
                 летом. Так вы&nbsp;увидите всё разнообразие местной флоры
                 и фауны. По&nbsp;лесам Алтая бродят лоси, над хребтами
@@ -274,7 +276,7 @@
                 также знают, что это самый большой источник пресной воды
                 и&nbsp;одно из&nbsp;красивейших мест в&nbsp;России.
               </p>
-              <p class="place__paragraph place__paragraph_margin_none">
+              <p class="place__paragraph">
                 Конечно, это всё так. Но&nbsp;Байкал ещё идеальное место для
                 соревнований по&nbsp;скийорингу. Это такой вид спорта, когда
                 лыжник привязывает себя к&nbsp;мотоциклу, и&nbsp;тандем
@@ -299,7 +301,7 @@
               class="place__image"
             />
             <div class="place__text">
-              <p class="place__paragraph place__paragraph_margin_none">
+              <p class="place__paragraph">
                 Сибирь заканчивается не&nbsp;на&nbsp;Урале,
                 а&nbsp;в&nbsp;Карелии: образующая тайгу сибирская лиственница
                 не&nbsp;растёт западнее Водлозера. Зато здесь она вымахивает
@@ -317,14 +319,16 @@
         </ul>
       </section>
       <!-- Cover -->
-      <section class="cover page__cover">
+      <section class="cover page__cover" aria-label="ссылка">
         <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" class="cover__link">
-          <div class="cover__text">
+          <section class="cover__wrapper">
+            <img src="images/cover-trains.jpg" alt="железнодорожные пути" class="cover__image">
+            <div class="cover__overlay"></div>
             <h2 class="cover__title">До&nbsp;Байкала &laquo;на&nbsp;собаках&raquo;</h2>
             <p class="cover__subtitle">
               По&nbsp;мотивам учебной темы о&nbsp;Транссибе&nbsp;&mdash; путешествие от&nbsp;столицы до&nbsp;Байкала на&nbsp;электричках.
             </p>
-          </div>
+          </section>
         </a>
       </section>
     </main>

@@ -3,13 +3,13 @@
   color: #fff;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
   .places {
     width: calc(100% - 48px*2);
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .places {
     width: calc(100% - 24px*2);
   }

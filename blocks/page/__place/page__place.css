@@ -2,7 +2,7 @@
   margin-top: 80px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .page__place {
     margin-top: 73px;
   }

@@ -5,14 +5,14 @@
   grid-template-columns: repeat(4, minmax(calc((100% - 48px)/4), 284px));
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (max-width: 1200px) {
   .photo-grid {
     grid-template-columns: repeat(3, minmax(calc((100% - 28px)/3), 300px));
     gap: 14px;
   }
 }
 
-@media (min-width: 425px) and (max-width: 768px) {
+@media (max-width: 1000px) {
   .photo-grid {
     width: calc(100% - 24px*2);
     grid-template-columns: repeat(2, minmax(calc((100% - 16px)/2), 352px));

@@ -5,14 +5,14 @@
   gap: 48px 40px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
   .place {
     grid-template-columns: minmax(calc(100% - 456px - 32px), 440px) minmax(calc(100% - 440px - 32px), 456px);
     gap: 48px 32px;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .place {
     grid-template-columns: minmax(calc(100% - 352px - 28px), 340px) minmax(calc(100% - 340px - 28px), 352px);
     gap: 48px 28px;

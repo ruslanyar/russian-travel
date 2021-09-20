@@ -1,8 +1,0 @@
-.cover__text {
-  grid-column: 1/2;
-  grid-row: 1/2;
-  align-self: center;
-  justify-self: center;
-  z-index: 1;
-  pointer-events: none;
-}

@@ -2,13 +2,13 @@
   margin: 92px 48px 0;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
   .page__cover {
     margin: 92px auto 0;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .page__cover{
     margin: 90px auto 0;
   }
