@@ -10,3 +10,5 @@
 В проекте используются следующие технологии:
 - HTML
 - CSS
+
+[Страница проекта] (https://ruslanyar.github.io/russian-travel/)
