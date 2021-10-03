@@ -11,4 +11,4 @@
 - HTML
 - CSS
 
-[Страница проекта] (https://ruslanyar.github.io/russian-travel/)
+[Страница проекта](https://ruslanyar.github.io/russian-travel/)
